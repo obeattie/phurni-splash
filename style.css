@@ -93,6 +93,6 @@ h1 {
     height: 339px;
     position: absolute;
     bottom: 0;
-    background: url('logo.png') center bottom no-repeat;
+    background: #f3f3f3 url('logo.png') center bottom no-repeat;
     text-indent: -99999em;
 }

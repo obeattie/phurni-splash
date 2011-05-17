@@ -74,17 +74,17 @@ html {
 body {
     background: #f3f3f3;
     min-width: 800px;
-    min-height: 500px;
+    min-height: 550px;
     height: 100%;
 }
 
 div {
     background: url('stem.png') center top repeat-y;
     width: 699px;
-    height: 60%;
-    min-height: 500px;
+    padding-top: 50%;
     position: relative;
     margin: 0 auto;
+    margin-top: -170px;
 }
 
 h1 {
@@ -95,4 +95,11 @@ h1 {
     bottom: 0;
     background: #f3f3f3 url('logo.png') center bottom no-repeat;
     text-indent: -99999em;
+}
+
+iframe {
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    margin-left: -25px;
 }
